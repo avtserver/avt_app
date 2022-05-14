@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include avt_app *.css
+recursive-include avt_app *.csv
+recursive-include avt_app *.html
+recursive-include avt_app *.ico
+recursive-include avt_app *.js
+recursive-include avt_app *.json
+recursive-include avt_app *.md
+recursive-include avt_app *.png
+recursive-include avt_app *.py
+recursive-include avt_app *.svg
+recursive-include avt_app *.txt
+recursive-exclude avt_app *.pyc
